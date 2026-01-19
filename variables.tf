@@ -8,3 +8,8 @@ variable "region" {
   description = "GCP project region"
   type        = string
 }
+
+variable "bucket_name" {
+  description = "GCP project bucket name"
+  type        = string
+}
