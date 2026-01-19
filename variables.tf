@@ -1,1 +1,10 @@
-# Placeholder file to preserve project structure. Delete this comment when populated.
+# Contains variable declarations and are used in resource blocks (main.tf)
+variable "project_id" {
+  description = "GCP project ID"
+  type        = string
+}
+
+variable "region" {
+  description = "GCP project region"
+  type        = string
+}

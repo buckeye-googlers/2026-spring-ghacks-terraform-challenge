@@ -1,1 +1,2 @@
-# Placeholder file to preserve project structure. Delete this comment when populated.
+# main.tf - defines resources in our cloud (GCP)
+# Placeholder file to preserve project structure

@@ -1,1 +1,13 @@
-# Placeholder file to preserve project structure. Delete this comment when populated.
+# General terraform config shit
+terraform {
+  required_providers {
+    google = {
+      source  = "hashicorp/google"
+      version = "4.57.0"
+    }
+  }
+}
+provider "google" {
+  project = var.project_id
+  region  = var.region
+}
